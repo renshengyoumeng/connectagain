@@ -3,10 +3,12 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="纪念中国迈向全球互联网的历史时刻，回顾发展历程并提供学习资源。" />
   <title>越过长城，走向世界 — 中国互联网纪念站</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <a class="skip-link" href="#main-content">跳到主要内容</a>
   <header class="navbar">
     <div class="container nav-content">
       <div class="logo">
@@ -16,8 +18,8 @@
           <p>Across the Great Wall — We can reach every corner in the world.</p>
         </div>
       </div>
-      <nav class="nav-links">
-        <a href="index.html">首页</a>
+      <nav class="nav-links" aria-label="主导航">
+        <a href="index.html" class="active">首页</a>
         <a href="origin.html">起源</a>
         <a href="timeline.html">发展</a>
         <a href="gallery.html">展览</a>
@@ -26,29 +28,119 @@
       </nav>
     </div>
   </header>
-  <main>
+  <main id="main-content">
     <section class="hero">
       <div class="container">
+        <p class="eyebrow">1994 · 北京中关村</p>
         <h2>越过长城，走向世界</h2>
-        <p>Across the Great Wall — We can reach every corner in the world.</p>
+        <p class="lead">1994 年 4 月 20 日，中国通过一条 64K 国际专线实现全功能互联网连接，自此迈入全球信息高速公路。</p>
         <div class="hero-buttons">
           <a href="origin.html" class="btn btn-primary">了解起源</a>
           <a href="timeline.html" class="btn btn-outline">查看时间线</a>
         </div>
       </div>
     </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">纪念亮点</p>
+          <h3>一段改变世界的联通故事</h3>
+          <p>从最初的卫星链路到正式的 TCP/IP 专线连接，中国科研团队用十余年时间完成了这一跨越，为今天的数字社会奠定了基础。</p>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <span class="tag">1980s</span>
+            <h4>科学家的勇敢探索</h4>
+            <p>“中关村一代”通过电子邮件和卫星链路进行国际合作，为互联网的全功能接入积累技术经验。</p>
+          </article>
+          <article class="card">
+            <span class="tag">1994</span>
+            <h4>64K 专线的成功上线</h4>
+            <p>国家计算机网络中心与美国 NSFNet 建立专线，对外发布 “Across the Great Wall” 的第一封问候。</p>
+          </article>
+          <article class="card">
+            <span class="tag">未来</span>
+            <h4>开放互联的延续</h4>
+            <p>从骨干网到移动互联网，开放、合作、共享的精神持续影响着科技创新与社会发展。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">发展脉络</p>
+          <h3>关键节点速览</h3>
+          <p>互联网的普及离不开科研院所、高校和企业的共同努力，下列节点勾勒了这段历程的主线。</p>
+        </div>
+        <div class="timeline-preview">
+          <ul class="timeline-list">
+            <li class="timeline-item">
+              <span class="year">1987</span>
+              <p>中国向全球科研网络发出第一封电子邮件：“Across the Great Wall, we can reach every corner in the world.”</p>
+            </li>
+            <li class="timeline-item">
+              <span class="year">1994</span>
+              <p>全功能连接正式建立，标志着中国成为互联网大家庭的一员。</p>
+            </li>
+            <li class="timeline-item">
+              <span class="year">1997</span>
+              <p>教育网、金桥工程等骨干网络成型，互联网服务逐步走入大众视野。</p>
+            </li>
+            <li class="timeline-item">
+              <span class="year">2008+</span>
+              <p>移动互联网普及，智慧城市、云计算与大数据加速发展，数字中国建设全面推进。</p>
+            </li>
+          </ul>
+          <a href="timeline.html" class="btn btn-secondary">深入了解完整时间线</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">学习与传承</p>
+          <h3>从历史走向未来</h3>
+          <p>纪念历史不仅是为了回望，更是为了启发下一代网络建设者继续推动开放的互联网生态。</p>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <h4>发展时间线</h4>
+            <p>梳理核心事件，理解政策与技术如何协同演进。</p>
+            <a class="btn btn-secondary" href="timeline.html">阅读时间线</a>
+          </article>
+          <article class="card">
+            <h4>珍贵档案</h4>
+            <p>浏览珍稀影像与文献，亲历互联网接入的关键瞬间。</p>
+            <a class="btn btn-secondary" href="gallery.html">进入展览</a>
+          </article>
+          <article class="card">
+            <h4>教育资源</h4>
+            <p>从 DNS、IP 到网络安全，为课程与讲座提供入门材料。</p>
+            <a class="btn btn-secondary" href="learn.html">获取资源</a>
+          </article>
+        </div>
+      </div>
+    </section>
   </main>
   <footer class="footer">
-    <div class="container footer-grid">
-      <div>
-        <h4>关于本项目</h4>
-        <p>本站为纪念与教育用途，旨在介绍中国接入国际互联网的历史与科普知识。</p>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>关于本项目</h4>
+          <p>本站为纪念与教育用途，旨在介绍中国接入国际互联网的历史与科普知识。</p>
+          <p>我们希望以开放、真实的资料，将那封著名问候背后的故事分享给每一位访客。</p>
+        </div>
+        <div>
+          <h4>联系与合作</h4>
+          <p>邮箱：<a href="mailto:info@example.org">info@example.org</a></p>
+          <p>高校课程与讲座合作欢迎垂询。</p>
+        </div>
       </div>
-      <div>
-        <h4>联系</h4>
-        <p>邮箱：<a href="mailto:info@example.org">info@example.org</a></p>
-        <p>版权 © 越过长城 2025</p>
-      </div>
+      <p class="footer-note">版权 © 越过长城纪念站 2025 · Across the Great Wall memorial site.</p>
     </div>
   </footer>
 </body>
